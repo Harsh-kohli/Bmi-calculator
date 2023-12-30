@@ -3,6 +3,8 @@
 Welcome to the BMI Calculator project! This simple web application helps users calculate and track their Body Mass Index (BMI) for assessing overall health and fitness.
 
 # Preview
+![BMI calculator](bmi%20.png)
+
 
 ## Description
 
