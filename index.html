@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="main">BMI Calculator</h1>
+    <div class="main">
+        <div class="main-container main">
+        <form>
+            <p style="margin:0;padding: 10px; border: 1px solid #FFE5E5;">Enter Height in cm : <input type="text" id="cm"></p>
+            <p style="margin:0;padding: 10px; border: 1px solid #FFE5E5;">Enter Weight in kg : <input type="text" id="kg"></p>
+            <button style="margin-bottom: 2rem;">Calcuate BMI</button>
+            <div  style="padding: 10px; border: 1px solid #FFE5E5;">Results are : <span id="results"></span></div>
+            <table border="1" style="margin-top: 1rem;width: 24rem;height: 12rem;">
+                <thead>
+                <tr>
+                    <th>BMI</th>
+                    <th>STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="background-color: #FFFF8F; color: black;">
+                        <=18.4< /td>
+                        <td class="white">UnderWeight</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #84FF00; color: black;">18.5 - 24.9</td>
+                        <td class="white">Normal</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #FF9600; color: black;">25.0 - 39.9 </td>
+                        <td class="white">OverWeight</td>
+                    </tr>
+                    <tr>
+                        <td style="background-color: #FF0000; color: black;">>=40</td>
+                        <td class="white">Obese</td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+
+        <div class="mid-container" id="guide">
+            <h3>Calculator Use</h3>
+            <p>The BMI Calculator finds the body mass index given weight and height. Calculate your BMI and find the BMI
+                weight category for your height. The calculator also finds the normal weight range given your height.
+                Calculate BMI with weight in pounds, stones or kilograms. Enter height in inches, feet and inches,
+                meters or centimeters.
+            </p>
+            <h3>
+                BMI Formulas
+            </h3>
+            Divide weight by height squared to find BMI. Note that you need to use kg and meters the standard units for
+            the BMI formula are kg and meters. If you need other units of measure the calculator will convert among
+            units for you.
+
+            <p>
+                In metric units, using kg and meters:
+            </p>
+
+                <b>
+            BMI= weight in kg height2 in m</br>
+            BMI = weight ÷ height2</br>
+            </b>
+            <p>
+
+                In metric units: BMI = weight (kg) ÷ height2 (meters)
+                In US units: BMI = weight (lb) ÷ height2 (inches) * 703
+                See additional BMI formulas below for accurate calculations in metric or imperial units.
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
